@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bannerContainner {
+  display: flex;
+  /* margin-top: 50px; */
+  width: 100vw;
+  height: 80vh;
+  /* background-color: black; */
+  justify-content: center;
+  /* align-items: center; */
+}
+.bannerTitle {
+  position: absolute;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  height: 10vh;
+  /* background: red; */
+}
+.title {
+  font-size: 4rem;
+  color: white;
+  font-weight: 600;
+}
+.subHeadingContainer {
+  position: absolute;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  height: 5vh;
+  /* background: red; */
+}
+.subHeading {
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 600;
+}
+.subHeading2 {
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 600;
+}
+.bannerIMG {
+  width: 100vw;
+  height: 80vh;
+  background-size: cover;
+
+  /* object-fit: cover; */
+}
+.ModalContainer {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+.HeaderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 75vw;
+}
+.fa {
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 100;
+  color: black;
+}
+.heading {
+  font-size: 1.4rem;
+  color: black;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px;
+}
+.input {
+  outline: none;
+  width: 50vw;
+  border: none;
+  color: rgba(0, 0, 0, 0.673);
+  height: 5vh;
+  font-size: 1rem;
+  border-bottom: 2px solid black;
+  background: transparent;
+  /* background-color: red; */
+  font-weight: 600;
+}
+.inputItems {
+  display: flex;
+  margin-left: 25px;
+}
+.fa-smile-o {
+  font-size: 1.9rem;
+}
+.textArea {
+  outline: none;
+  width: 50vw;
+  border: none;
+  color: rgba(0, 0, 0, 0.673);
+  height: 5vh;
+  font-size: 1rem;
+  border-bottom: 2px solid black;
+  background: transparent;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.modal_btn {
+  width: 50vw;
+  height: 5vh;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  color: rgba(0, 0, 0, 0.673);
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #3256a8;
+}
+.modal_btn:disabled {
+  cursor: default;
+}
+.SubModalContainer {
+  display: flex;
+  flex-direction: column;
+  /* height: auto; */
+  justify-content: center;
+  align-items: center;
+  /* overflow-x: hidden; */
+}
+.emojiContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 35vw;
+}
+.crossIcon {
+  font-size: 0.9rem;
+}
+.inputBox {
+  outline: none;
+  width: 10vw;
+  border: none;
+  color: rgba(0, 0, 0, 0.673);
+  height: 3vh;
+  font-size: 0.9rem;
+  border-bottom: 2px solid black;
+  background: transparent;
+}
+.fa-search {
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.linel {
+  margin-top: 10px;
+  width: 40vw;
+  height: 1px;
+  background-color: rgb(197, 181, 181);
+}
+.showEmoji {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  /* background-color: red; */
+  width: 40vw;
+  height: auto;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.emoji_icon {
+  font-size: 1.6rem;
+}
+.choosenEmojiContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.choosenEmoji {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+}

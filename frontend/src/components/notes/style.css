@@ -1,0 +1,48 @@
+.card-btn {
+  outline: none;
+  width: 10vw;
+  border: none;
+  color: rgba(0, 0, 0, 0.673);
+  height: 5vh;
+  font-size: 1rem;
+  margin-top: 20px;
+  background-color: #007bff;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.Card-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  width: 100vw;
+}
+.cards {
+  width: 80vw;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #007bff; */
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  margin-top: 20px;
+  height: auto;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  /* background-color: red; */
+}
+.edit-detele-btn i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  margin-top: 30px;
+}

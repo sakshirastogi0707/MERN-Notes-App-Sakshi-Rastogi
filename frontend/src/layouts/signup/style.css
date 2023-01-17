@@ -1,0 +1,50 @@
+.LoginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.LoginSubContainer {
+  width: 40vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+  margin-top: 10rem;
+  box-shadow: 10px 10px;
+}
+.Login-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.login-text {
+  outline: none;
+  width: 30vw;
+  border: none;
+  color: rgba(0, 0, 0, 0.673);
+  height: 5vh;
+  font-size: 1rem;
+  border-bottom: 2px solid black;
+  background: transparent;
+  /* background-color: red; */
+  font-weight: 600;
+  margin-top: 15px;
+}
+.loginBtn {
+  outline: none;
+  width: 30vw;
+  border: none;
+  color: rgba(0, 0, 0, 0.673);
+  height: 5vh;
+  font-size: 1rem;
+  margin-top: 20px;
+  background-color: #007bff;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.msglink {
+  margin-top: 20px;
+}
